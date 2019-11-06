@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="deqo-2019-2020-projet-bowling-deqo-sel" />
+        <module name="bowling" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bowling" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
